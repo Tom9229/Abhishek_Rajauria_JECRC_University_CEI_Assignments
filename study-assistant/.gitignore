@@ -1,0 +1,26 @@
+# Backend / Python
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+*.pyc
+
+# Local Data (Vector Store, Uploads, Cache, Logs)
+backend/vector_store/
+backend/uploads/
+backend/cache/
+backend/logs/
+backend/chroma.sqlite3
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env
+*.env
+*.env.*
+
+# Frontend / Node
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.npm
+.DS_Store
